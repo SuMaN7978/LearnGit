@@ -10,5 +10,5 @@ l= [10, 14, 5, 9, 56, 12]
 pos1= 2
 pos2= 5
 
-print(l)
+print("Actual list: ",l)
 print("Swapped list: ",swapList(l,pos1-1,pos2-1))
