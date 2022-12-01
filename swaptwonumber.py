@@ -6,9 +6,9 @@ def swapList(sl,pos1,pos2):
     sl[pos2] = temp
     return sl      
 
-l= [10, 14, 5, 9, 56, 12]
+lists= [10, 14, 5, 9, 56, 12]
 pos1= 2
 pos2= 5
 
-print("Actual list: ",l)
-print("Swapped list: ",swapList(l,pos1-1,pos2-1))
+print("Actual list: ",lists)
+print("Swapped list: ",swapList(lists,pos1-1,pos2-1))
